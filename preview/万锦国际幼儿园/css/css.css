@@ -1,0 +1,146 @@
+@charset "utf-8";
+.bg_autumn{background:url(../images/bg_autumn.jpg) center 645px; overflow-x:hidden;}
+
+.bg_spring{background:url(../images/bg_spring.jpg) center top; overflow-x:hidden;}
+
+.bg_winter{background:url(../images/bg_winter.jpg) center top; overflow-x:hidden;}
+
+@font-face{font-family:'font_cn'; src:url(../fonts/font_cn.ttf);}
+
+
+/*banner*/
+.banner_autumn{width:100%; height:700px; background:url(../images/banner_autumn.jpg) left center;}
+
+/*头部*/
+.top{width:1200px; margin:0 auto; position:relative; margin-top:35px;}
+.logo{width:373px; margin:0 auto;}
+.cn_en{position:absolute; right:15px; bottom:15px; color:#603414; font-size:27px; font-family:'font_cn';}
+.cn_en em{float:left; margin-right:10px;}
+.cn_en span{float:right; line-height:28px; line-height:30px;}
+.cn_en a{color:#603414; display:inline-table;}
+.cn_en a:hover{color:#93371d;}
+
+/*导航-秋天*/
+.nav_autumn{width:1158px; margin:0 auto; margin-top:48px;/* overflow:hidden;*/}
+.nav_autumn_in{width:1800px; margin-bottom:232px;}
+.nav_autumn_in ul li{width:150px; text-align:center; color:#603414; text-align:center; font-size:26px; font-family:'font_cn'; position:relative; float:left; margin-right:102px;}
+.nav_autumn_in ul li img{display:block; margin:0 auto; margin-bottom:12px;}
+.nav_autumn_in ul li span{width:150px; height:43px; line-height:43px; display:block;}
+.nav_autumn_in ul li a{color:#603414;}
+.nav_autumn_in ul li a:hover{color:#93371d;}
+.nav_autumn_in ul li dl{display:block; padding:35px 31px 20px 31px; background:url(../images/nav_autumn_now_b.png); background-size:100% 100%; position:absolute; top:168px; left:52px; line-height:37px; display:none;}
+.nav_autumn_in ul li dl dd{width:100%; display:block; white-space:nowrap; text-align:left;}
+.nav_autumn_in ul li.now span{background:url(../images/nav_autumn_now.png);}
+.nav_autumn_in ul li.now dl{display:block;}
+
+/*导航-春天*/
+.nav_spring{width:1158px; margin:0 auto; margin-top:48px;/* overflow:hidden;*/}
+.nav_spring_in{width:1800px; margin-bottom:232px;}
+.nav_spring_in ul li{width:150px; text-align:center; color:#603414; text-align:center; font-size:26px; font-family:'font_cn'; position:relative; float:left; margin-right:102px;}
+.nav_spring_in ul li img{display:block; margin:0 auto; margin-bottom:12px;}
+.nav_spring_in ul li span{width:150px; height:43px; line-height:43px; display:block;}
+.nav_spring_in ul li a{color:#603414;}
+.nav_spring_in ul li a:hover{color:#93371d;}
+.nav_spring_in ul li dl{display:block; padding:35px 31px 20px 31px; background:url(../images/nav_spring_now_b.png); background-size:100% 100%; position:absolute; top:168px; left:52px; line-height:37px; display:none;}
+.nav_spring_in ul li dl dd{width:100%; display:block; white-space:nowrap; text-align:left;}
+.nav_spring_in ul li.now span{background:url(../images/nav_spring_now.png);}
+.nav_spring_in ul li.now dl{display:block;}
+
+/*导航-冬天*/
+.nav_winter{width:1158px; margin:0 auto; margin-top:48px;/* overflow:hidden;*/}
+.nav_winter_in{width:1800px; margin-bottom:232px;}
+.nav_winter_in ul li{width:150px; text-align:center; color:#603414; text-align:center; font-size:26px; font-family:'font_cn'; position:relative; float:left; margin-right:102px;}
+.nav_winter_in ul li img{display:block; margin:0 auto; margin-bottom:12px;}
+.nav_winter_in ul li span{width:150px; height:43px; line-height:43px; display:block;}
+.nav_winter_in ul li a{color:#603414;}
+.nav_winter_in ul li a:hover{color:#93371d;}
+.nav_winter_in ul li dl{display:block; padding:35px 31px 20px 31px; background:url(../images/nav_winter_now_b.png); background-size:100% 100%; position:absolute; top:168px; left:52px; line-height:37px; display:none;}
+.nav_winter_in ul li dl dd{width:100%; display:block; white-space:nowrap; text-align:left; text-shadow:2px 2px 2px #FFF}
+.nav_winter_in ul li.now span{background:url(../images/nav_winter_now.png); text-shadow:2px 2px 2px #FFF}
+.nav_winter_in ul li.now dl{display:block;}
+
+/*首页列表*/
+.idx_news{width:1008px; height:322px; margin:0 auto; background:rgba(255,255,255,0.62); margin-bottom:20px;}
+.idx_news_list dl dt{width:356px; height:237px; float:left; margin-top:42px; margin-left:25px;}
+.idx_news_list dl dd{width:558px; float:right; margin-right:42px;}
+.idx_news_list dl dd.title{height:72px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; margin-top:44px;}
+.idx_news_list dl dd.details{height:160px; overflow:hidden; font-size:18px;}
+.idx_news_list dl dd.details span{display:block;}
+.idx_news_list dl dd.details label{display:block;}
+.idx_news_more{margin-top:20px; text-align:center; color:#603414; font-family:'font_cn'; font-size:27px;}
+.idx_news_more a{color:#603414;}
+.idx_news_more a:hover{color:#eb516a;}
+
+/*版权信息*/
+.copyright{width:100%; text-align:center; line-height:26px; font-size:21px; color:#603414; margin-top:100px; margin-bottom:50px; font-family:'font_cn';}
+.copyright span{display:block;}
+.copyright a{color:#603414; position:relative; cursor:pointer;}
+.copyright a:hover{color:#eb516a;}
+.copyright_qr{width:186px; height:186px; padding:10px; border-radius:10px; background:#ca7551; position:absolute; top:-216px; left:50%; margin-left:-103px; display:none;}
+.copyright_qr_triangle_down {width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #ca7551; position:absolute; bottom:-10px; left:50%; margin-left:-5px;}
+
+/*成长记录-相册封面*/
+.growth_record_t{width:1200px; margin:0 auto; margin-top:10px; font-size:22px; text-align:center;}
+.growth_record{width:1120px; margin:0 auto; margin-top:10px; padding:40px; background:rgba(255,255,255,0.62); overflow:hidden;}
+.growth_record_list{width:1200px;}
+.growth_record_list ul li{width:356px; float:left; margin-right:28px; margin-bottom:8px;}
+.growth_record_list ul li img{display:block;}
+.growth_record_list ul li span{display:block; height:55px; line-height:55px; text-align:center; font-size:21px;}
+
+/*页码*/
+.page{text-align:center; padding:60px 0; color:#603414; font-size:27px; font-family:'font_cn';}
+.page a{color:#603414;}
+.page a:hover{color:#eb516a;}
+
+/*加入我们*/
+.join_us{width:1068px; margin:0 auto; color:#5e250c;}
+.join_us_t{width:458px; margin:0 auto;}
+.join_us_t_t{text-align:center; font-size:48px; font-family:'font_cn'; margin-bottom:60px;}
+.join_us_t_b{line-height:38px; font-size:16px;}
+.join_us_t_b ul li{width:100%; float:left;}
+
+.join_us_b{width:1068px; margin:0 auto; margin-top:80px;}
+.join_us_b_l{width:148px; float:left;}
+.join_us_b_l ul li{width:148px; height:48px; text-align:center; line-height:48px; color:#5e250c; font-size:36px; margin-top:30px; margin-bottom:234px; cursor:pointer; font-family:'font_cn';}
+.join_us_b_l ul li.now{background:url(../images/join_us_b_l.png);}
+.join_us_b_r{width:669px; float:right;}
+.join_us_list{}
+.join_us_list dl{margin-bottom:68px; color:#5e250c;}
+.join_us_list dl dt{font-size:32px; display:block; margin-bottom:22px;}
+.join_us_list dl dd{font-size:18px; display:block; line-height:36px;}
+.tablist {display: none;}
+.block {display: block;}
+
+/*教学课程*/
+.about{width:1200px; margin:0 auto; color:#5e250c;}
+.about_t{width:703px; margin:0 auto;}
+.about_t_t{text-align:center; font-size:48px; font-family:'font_cn'; margin-bottom:60px;}
+.about_t_b{line-height:38px; font-size:16px;}
+
+.about_b{width:703px; margin:0 auto; margin-top:100px;}
+.about_b_t{text-align:center; font-size:24px; margin-bottom:60px;}
+.about_b_b{line-height:38px; font-size:16px; position:relative;}
+.about_b_b_l{width:620px;}
+.about_b_b_r{width:188px; position:absolute; right:-206px; top:-36px}
+
+/*集团成员*/
+.team_member{width:1200px; margin:0 auto; margin-top:100px; color:#5e250c;}
+
+.team_member ul li{width:400px; float:left; text-align:center; margin-bottom:60px;}
+.team_member img{display:block; margin:0 auto; margin-bottom:30px;}
+.team_member ul li span{display:block; width:100%; line-height:36px;}
+
+.team_member_b{width:1200px; margin:0 auto; text-align:center; color:#65361a;}
+.team_member_b img{display:block; margin:0 auto; margin-bottom:28px;}
+.team_member_b span{display:block;}
+
+/*教学课程*/
+.teaching_course{width:1200px; margin:0 auto;}
+.teaching_course_t{text-align:center; font-size:48px; font-family:'font_cn'; margin-bottom:60px; color:#5e250c;}
+.teaching_course_b{text-align:center;}
+.teaching_course_b img{margin-bottom:120px;}
+
+/*关于我们*/
+.about_pics{width:1200px; overflow:hidden; margin-top:23px;}
+.about_pics ul{width:1300px;}
+.about_pics ul li{width:296px; float:left; margin-right:5px;}

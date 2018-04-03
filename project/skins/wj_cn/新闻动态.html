@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<!--<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />-->
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+
+<!--JQ基础文件-->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+<!--IE6 PNG透明-->
+<!--[if lte IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+
+<!--交互动画-->
+<script type="text/javascript">
+$(function(){
+	$('.banner').addClass('animated flipInX');
+	<!--logo-->
+	$('.logo').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	
+	<!--导航-->
+	$('.nav_in ul li').mouseover(function(){
+		$(this).addClass('animated flipInY');
+	});
+	
+	$('.cn_en span a').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	$('.nav_in ul li dl dd').hover(function(){
+		$(this).addClass('animated swing');
+	},function(){
+		$(this).removeClass('animated swing');
+	});
+	
+	<!--头部动画-->
+	$(".top").addClass('animated bounceIn');
+	$(".nav").addClass('animated bounceIn');  
+	
+	<!--相册页列表图片-->
+	$('.growth_record_list ul li img').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	<!--头部动画-->
+	$(".idx_news").addClass('animated fadeInUp');  
+	
+});	
+
+
+
+</script>
+
+
+
+
+</head>
+
+<body class="bg_spring">
+
+
+<!--头部-->
+<div class="top">
+	<div class="logo"><a href="#"><img src="images/logo.png" /></a></div>
+    <div class="cn_en">
+    	<em><img src="images/dot_wing.png" width="29" height="28" /></em>
+        <span><a href="#" class="cn"=>中文</a>/<a href="#">English</a></span>
+    </div>
+</div>
+
+<!--导航-->
+<div class="nav_spring nav">
+	<div class="nav_spring_in nav_in">
+      <ul>
+            <li class="now"> 
+            	<a href="#"><img src="images/nav_autumn1.png" width="127" height="105" /></a>
+                <span><a href="#">关于我们</a></span>
+                <dl>
+                	<dd><a href="#">万锦教育集团</a></dd>
+                	<dd><a href="#">天河万锦</a></dd>
+                	<dd><a href="#">万锦分园</a></dd>
+                	<dd><a href="#">加入我们</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn2.png" width="127" height="105" /></a>
+                <span><a href="#">教学课程</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn3.png" width="127" height="105" /></a>
+                <span><a href="#">新闻动态</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn4.png" width="127" height="105" /></a>
+                <span><a href="#">预约入园</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn5.png" width="127" height="105" /></a>
+                <span><a href="#">成长记录</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <div class="clear"></div>
+            <script type="text/javascript">
+            	$(function(){
+					$('.nav_autumn_in ul li').mouseover(function(){
+						$(this).addClass('now')	
+						$(this).nextAll('.nav_autumn ul li').removeClass('now animated flipInY')	
+						$(this).prevAll('.nav_autumn ul li').removeClass('now animated flipInY')	
+					});
+				});
+            </script>
+      </ul>
+    </div>
+</div>
+
+<!--首页列表-->
+<div class="idx_news">
+	<div class="idx_news_list">
+        <dl>
+            <dt><a href="#"><img src="images/pic1.jpg" width="356" height="237" /></a></dt>
+            <dd class="title"><a href="#">【Review】中秋活动回顾 Mid-autumn festival activities</a></dd>
+            <dd class="details">
+                <span>橡果班萌娃们一边手捧餐碟，排着整齐的队伍等候取用自助餐，一边唱起了前几天学会的《中秋》儿歌。</span>
+                <label>What comes to your mind when talking about the Mid-Autumn Festival? Of course, it must be the full moon and sweet mooncakes, right?</label>
+            </dd>
+            <div class="clear"></div>
+        </dl>
+    </div>
+</div>
+
+<div class="idx_news">
+	<div class="idx_news_list">
+        <dl>
+            <dt><a href="#"><img src="images/pic1.jpg" width="356" height="237" /></a></dt>
+            <dd class="title"><a href="#">【Review】中秋活动回顾 Mid-autumn festival activities</a></dd>
+            <dd class="details">
+                <span>橡果班萌娃们一边手捧餐碟，排着整齐的队伍等候取用自助餐，一边唱起了前几天学会的《中秋》儿歌。</span>
+                <label>What comes to your mind when talking about the Mid-Autumn Festival? Of course, it must be the full moon and sweet mooncakes, right?</label>
+            </dd>
+            <div class="clear"></div>
+        </dl>
+    </div>
+</div>
+
+<div class="idx_news">
+	<div class="idx_news_list">
+        <dl>
+            <dt><a href="#"><img src="images/pic1.jpg" width="356" height="237" /></a></dt>
+            <dd class="title"><a href="#">【Review】中秋活动回顾 Mid-autumn festival activities</a></dd>
+            <dd class="details">
+                <span>橡果班萌娃们一边手捧餐碟，排着整齐的队伍等候取用自助餐，一边唱起了前几天学会的《中秋》儿歌。</span>
+                <label>What comes to your mind when talking about the Mid-Autumn Festival? Of course, it must be the full moon and sweet mooncakes, right?</label>
+            </dd>
+            <div class="clear"></div>
+        </dl>
+    </div>
+</div>
+
+<!--页码-->
+<div class="page">
+	<img src="images/dot_wing2.png" width="29" height="29" />
+    &nbsp;<a href="#">上一页</a>&nbsp;&nbsp;&nbsp;
+    <a href="#">1</a>&nbsp;&nbsp;&nbsp;<a href="#">2</a>&nbsp;&nbsp;&nbsp;<a href="#">3</a>&nbsp;&nbsp;&nbsp;<a href="#">4</a>&nbsp;&nbsp;&nbsp;<a href="#">5</a>&nbsp;&nbsp;&nbsp;...
+    &nbsp;&nbsp;<a href="#">下一页</a>&nbsp;
+    <img src="images/dot_wing.png" width="29" height="29" />
+</div>
+
+<!--版权信息-->
+<div class="copyright">
+	<span>广州市天河区珠江新城猎德大道31号之六中海璟晖华庭西门（即盈嘉花园北门旁）</span>
+    <span>020-38020321 转：0</span>
+    <span>
+    	<a class="cpr_qr">
+        	<div class="copyright_qr">
+            	<img src="images/qr.jpg" width="186" height="186" />
+            	<div class="copyright_qr_triangle_down"></div>
+            </div>
+            微信公众号
+            <script>
+			$(function(){
+				$('.cpr_qr').mouseover(function(){
+					$(this).children('.copyright_qr').show();
+					$(this).children('.copyright_qr').addClass('animated bounceIn');
+					$(this).children('.copyright_qr').removeClass('bounceOut');
+				});
+				$('.cpr_qr').mouseleave(function(){
+					$(this).children('.copyright_qr').addClass('animated bounceOut');
+					$(this).children('.copyright_qr').removeClass('bounceIn');
+				});
+			});
+			</script>
+        </a>
+    </span>
+    <span>邮箱：MIK@markham-edu.com</span>
+    <span>Copyright © 2017 万锦国际幼儿园</span>
+</div>
+
+</body>
+</html>

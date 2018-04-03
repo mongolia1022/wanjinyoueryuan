@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+<!--<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />-->
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+
+<!--JQ基础文件-->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+<!--IE6 PNG透明-->
+<!--[if lte IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+
+<!--交互动画-->
+<script type="text/javascript">
+$(function(){
+	$('.banner').addClass('animated flipInX');
+	<!--logo-->
+	$('.logo').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	
+	<!--导航-->
+	$('.nav_in ul li').mouseover(function(){
+		$(this).addClass('animated flipInY');
+	});
+	
+	$('.cn_en span a').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	$('.nav_in ul li dl dd').hover(function(){
+		$(this).addClass('animated swing');
+	},function(){
+		$(this).removeClass('animated swing');
+	});
+	
+	<!--头部动画-->
+	$(".top").addClass('animated bounceIn');
+	$(".nav").addClass('animated bounceIn');  
+	
+	<!--相册页列表图片-->
+	$('.growth_record_list ul li img').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	
+	<!--加入我们-->
+	$(".join_us").addClass('animated fadeInUp');
+	
+	<!--滚动互动-->
+	$(document).scroll(function() {
+		if($(document).scrollTop()>460){
+			$(".join_us_b").addClass('animated bounceInUp');
+		}
+	})
+	
+});	
+</script>
+
+<!--TAB JS-->
+<script type="text/javascript"> 
+function setTab(m,n){ 
+var menu=document.getElementById("tab"+m).getElementsByTagName("li");  
+var div=document.getElementById("tablist"+m).getElementsByTagName("div"); 
+var showdiv=[]; 
+	for (i=0; j=div[i]; i++)
+	{  
+		if((" "+div[i].className+" ").indexOf(" tablist ")!=-1)
+		{  
+			showdiv.push(div[i]); 
+		} 
+	}  
+	for(i=0;i<menu.length;i++)
+	{  
+		menu[i].className=i==n?"now":"";  
+		showdiv[i].style.display=i==n?"block":"none"; 
+	}  
+}  
+</script>
+
+</head>
+
+<body class="bg_winter">
+
+<!--头部-->
+<div class="top">
+	<div class="logo"><a href="#"><img src="images/logo.png" /></a></div>
+    <div class="cn_en">
+    	<em><img src="images/dot_wing.png" width="29" height="28" /></em>
+        <span><a href="#" class="cn"=>中文</a>/<a href="#">English</a></span>
+    </div>
+</div>
+
+<!--导航-->
+<div class="nav_winter nav">
+	<div class="nav_winter_in nav_in">
+      <ul>
+            <li class="now"> 
+            	<a href="#"><img src="images/nav_autumn1.png" width="127" height="105" /></a>
+                <span><a href="#">关于我们</a></span>
+                <dl>
+                	<dd><a href="#">万锦教育集团</a></dd>
+                	<dd><a href="#">天河万锦</a></dd>
+                	<dd><a href="#">万锦分园</a></dd>
+                	<dd><a href="#">加入我们</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn2.png" width="127" height="105" /></a>
+                <span><a href="#">教学课程</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn3.png" width="127" height="105" /></a>
+                <span><a href="#">新闻动态</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn4.png" width="127" height="105" /></a>
+                <span><a href="#">预约入园</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn5.png" width="127" height="105" /></a>
+                <span><a href="#">成长记录</a></span>
+                <dl>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                	<dd><a href="#">二级导航</a></dd>
+                </dl>
+          	</li>
+            <div class="clear"></div>
+            <script type="text/javascript">
+            	$(function(){
+					$('.nav_winter_in ul li').mouseover(function(){
+						$(this).addClass('now')	
+						$(this).nextAll('.nav_winter ul li').removeClass('now animated flipInY')	
+						$(this).prevAll('.nav_winter ul li').removeClass('now animated flipInY')	
+					});
+				});
+            </script>
+      </ul>
+    </div>
+</div>
+
+<!--加入我们-->
+<div class="join_us">
+	<div class="join_us_t">
+    	<div class="join_us_t_t">加入我们</div>
+        <div class="join_us_t_b">
+            <ul>
+                <li>· 国际化管理团队，管理层拥有加拿大、英国等国生活留学背景；</li>
+                <li>· 员工来自省级幼儿园、世界100强企业、知名教育集团等；</li>
+                <li>· 提供广阔的职业发展平台，多元培训与晋升机会；</li>
+                <li>· 中外方双班主任制，中英文双语环境，助力员工快速成长；</li>
+                <li>· 优势薪酬，五险一金齐全；</li>
+                <li>· 提供两餐中/西餐点，一周美食不重样；</li>
+                <li>· 节假日礼金、外出旅游、周末双休、寒暑假等员工福利；</li>
+                <li>· 地址位于广州金融CBD，面向高素质的家长、小朋友群体；</li>
+                <li>· 员工福利享不停！萌娃陪伴欢乐无限！</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="join_us_b">
+	<div class="join_us_b_l" id="tab1">
+    	<ul>
+        	<li onclick="setTab(1,0)" class="now">教学部</li>
+        	<li onclick="setTab(1,1)">后勤部</li>
+        	<li onclick="setTab(1,2)">总部</li>
+        </ul>
+    </div>
+	<div class="join_us_b_r" id="tablist1">
+    	<div class="join_us_list tablist block">
+        	<dl>
+                <dt>生活老师1</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+            <dl>
+                <dt>生活老师</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+            <dl>
+                <dt>生活老师</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+        </div>
+        <div class="join_us_list tablist">
+        	<dl>
+                <dt>生活老师2</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+            <dl>
+                <dt>生活老师</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+            <dl>
+                <dt>生活老师</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+        </div>
+        <div class="join_us_list tablist">
+        	<dl>
+                <dt>生活老师3</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+            <dl>
+                <dt>生活老师</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+            <dl>
+                <dt>生活老师</dt>
+                <dd>任职资格：</dd>
+                <dd>· 大专以上学历，学前教育专业及护士专业者优先；<br>
+                  · 有保育员经验者优先，持保育员上岗证；<br>
+                  · 有爱心、耐心、责任心，亲和力强；<br>
+                · 有良好的沟通能力，有1年以上工作经验，能吃苦耐劳，有相关幼师或教育工作经验者优先考虑。</dd>
+            </dl>
+        </div>
+  </div>
+    <div class="clear"></div>
+</div>
+
+<!--版权信息-->
+<div class="copyright">
+	<span>广州市天河区珠江新城猎德大道31号之六中海璟晖华庭西门（即盈嘉花园北门旁）</span>
+    <span>020-38020321 转：0</span>
+    <span>
+    	<a class="cpr_qr">
+        	<div class="copyright_qr">
+            	<img src="images/qr.jpg" width="186" height="186" />
+            	<div class="copyright_qr_triangle_down"></div>
+            </div>
+            微信公众号
+            <script>
+			$(function(){
+				$('.cpr_qr').mouseover(function(){
+					$(this).children('.copyright_qr').show();
+					$(this).children('.copyright_qr').addClass('animated bounceIn');
+					$(this).children('.copyright_qr').removeClass('bounceOut');
+				});
+				$('.cpr_qr').mouseleave(function(){
+					$(this).children('.copyright_qr').addClass('animated bounceOut');
+					$(this).children('.copyright_qr').removeClass('bounceIn');
+				});
+			});
+			</script>
+        </a>
+    </span>
+    <span>邮箱：MIK@markham-edu.com</span>
+    <span>Copyright © 2017 万锦国际幼儿园</span>
+</div>
+
+</body>
+</html>
