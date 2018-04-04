@@ -9,7 +9,7 @@
 
 
 /*banner*/
-.banner_autumn{width:100%; height:700px; background:url(../images/banner_autumn.jpg) left center;}
+.banner_autumn{width:100%;/* height:700px; background:url(../images/banner_autumn.jpg) left center;*/}
 
 /*头部*/
 .top{width:1200px; margin:0 auto; position:relative; margin-top:35px;}

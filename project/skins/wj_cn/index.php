@@ -78,7 +78,7 @@ $(function(){
 <body class="bg_autumn">
 
 <!--banner-->
-<div class="banner banner_autumn"></div>
+<div class="banner banner_autumn"><img src="<?php echo $tag['path.skin']; ?>images/banner_autumn.jpg" width="100%" /></div>
 
 <!--头部-->
 <div class="top">

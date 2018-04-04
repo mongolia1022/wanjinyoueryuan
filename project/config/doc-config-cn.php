@@ -1,8 +1,8 @@
 <?php
 //数据库配置字段
-define('DB_HOSTNAME','sql.m766.vhostgo.com');
-define('DB_USER','wanjinyoueryuan');
-define('DB_PASSWORD','wjyey808');
+define('DB_HOSTNAME','localhost');
+define('DB_USER','root');
+define('DB_PASSWORD','');
 define('DB_DBNAME','wanjinyoueryuan');
 define('TB_PREFIX','doc_');
 //模板配置字段
