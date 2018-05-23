@@ -30,10 +30,38 @@ $(function(){
 		$(this).removeClass('animated pulse');
 	});
 	
+	<!--logo-->
+	$('.logo2').mouseenter(function(){
+		$(this).addClass('now animated flipInY');
+		
+	}); 
+	$('.logo2 a').mouseleave(function(){
+		$(this).parent('.logo2').removeClass('now animated flipInY');
+		
+	}); 
 	
 	<!--导航-->
-	$('.nav_in ul li').mouseover(function(){
-		$(this).addClass('animated flipInY');
+	$('.nav_in ul li').mouseenter(function(){
+		$(this).addClass('now animated flipInY');
+		$(this).nextAll('.nav_in ul li').removeClass('now animated flipInY');
+		$(this).prevAll('.nav_in ul li').removeClass('now animated flipInY');
+		
+	});
+	
+	$('.nav_in ul li dl').mouseleave(function(){
+		$(this).parent('.nav_in ul li').removeClass('now animated flipInY');
+	});
+	
+	$('.cn_en span a').hover(function(){
+		$(this).addClass('animated pulse');
+	},function(){
+		$(this).removeClass('animated pulse');
+	});
+	
+	$('.nav_in ul li dl dd').hover(function(){
+		$(this).addClass('animated swing');
+	},function(){
+		$(this).removeClass('animated swing');
 	});
 	
 	$('.cn_en span a').hover(function(){
@@ -60,13 +88,12 @@ $(function(){
 	});
 	
 	$(".about_t").addClass('animated fadeInUp');
+	$(".about_b").addClass('animated fadeInUp');
+	
 	
 	<!--滚动互动-->
 	$(document).scroll(function() {
-		if($(document).scrollTop()>300){
-			$(".about_b").addClass('animated bounceInUp');
-		}
-		if($(document).scrollTop()>560){
+		if($(document).scrollTop()>50){
 			$(".team_member").addClass('animated bounceInUp');
 		}
 	});   
@@ -103,9 +130,8 @@ var showdiv=[];
 
 <!--头部-->
 <div class="top">
-	<div class="logo"><a href="#"><img src="images/logo.png" /></a></div>
-    <div class="cn_en">
-    	<em><img src="images/dot_wing.png" width="29" height="28" /></em>
+    <div class="cn_en2">
+    	<em><img src="images/dot_wing.png" height="20" /></em>
         <span><a href="#" class="cn"=>中文</a>/<a href="#">English</a></span>
     </div>
 </div>
@@ -114,69 +140,77 @@ var showdiv=[];
 <div class="nav_winter nav">
 	<div class="nav_winter_in nav_in">
       <ul>
-            <li class="now"> 
-            	<a href="#"><img src="images/nav_autumn1.png" width="127" height="105" /></a>
+      		<div class="logo2"><a href="#"></a><img src="images/logo2.png" width="100%" /></div>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn1.png" width="81" /></a>
                 <span><a href="#">关于我们</a></span>
                 <dl>
-                	<dd><a href="#">万锦教育集团</a></dd>
-                	<dd><a href="#">天河万锦</a></dd>
-                	<dd><a href="#">万锦分园</a></dd>
-                	<dd><a href="#">加入我们</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                	<div class="nav_second">
+                        <dd><a href="#">万锦教育集团</a></dd>
+                        <dd><a href="#">天河万锦</a></dd>
+                        <dd><a href="#">万锦分园</a></dd>
+                        <dd><a href="#">加入我们</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn2.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn2.png" width="81" /></a>
                 <span><a href="#">教学课程</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn3.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn3.png" width="81" /></a>
                 <span><a href="#">新闻动态</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn4.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn4.png" width="81" /></a>
                 <span><a href="#">预约入园</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn5.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn5.png" width="81" /></a>
                 <span><a href="#">成长记录</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <div class="clear"></div>
-            <script type="text/javascript">
-            	$(function(){
-					$('.nav_winter_in ul li').mouseover(function(){
-						$(this).addClass('now')	
-						$(this).nextAll('.nav_winter ul li').removeClass('now animated flipInY')	
-						$(this).prevAll('.nav_winter ul li').removeClass('now animated flipInY')	
-					});
-				});
-            </script>
       </ul>
     </div>
 </div>
+
 
 <!--加入我们-->
 <div class="about">
@@ -205,7 +239,7 @@ var showdiv=[];
     <ul>
     	<li>
         	<img src="images/pic4.jpg" width="158" height="238" />
-            <span>吴潇婴</span>
+            <span class="first">吴潇婴</span>
             <span>华南师范大学教育心理专业</span>
             <span>任幼儿园园长6年</span>
             <span>省一级、市示范性公办幼儿园15年</span>
@@ -214,7 +248,7 @@ var showdiv=[];
         </li>
         <li>
         	<img src="images/pic4.jpg" width="158" height="238" />
-            <span>吴潇婴</span>
+            <span class="first">吴潇婴</span>
             <span>华南师范大学教育心理专业</span>
             <span>任幼儿园园长6年</span>
             <span>省一级、市示范性公办幼儿园15年</span>
@@ -223,7 +257,7 @@ var showdiv=[];
         </li>
         <li>
         	<img src="images/pic4.jpg" width="158" height="238" />
-            <span>吴潇婴</span>
+            <span class="first">吴潇婴</span>
             <span>华南师范大学教育心理专业</span>
             <span>任幼儿园园长6年</span>
             <span>省一级、市示范性公办幼儿园15年</span>
@@ -232,7 +266,7 @@ var showdiv=[];
         </li>
         <li>
         	<img src="images/pic4.jpg" width="158" height="238" />
-            <span>吴潇婴</span>
+            <span class="first">吴潇婴</span>
             <span>华南师范大学教育心理专业</span>
             <span>任幼儿园园长6年</span>
             <span>省一级、市示范性公办幼儿园15年</span>
@@ -241,7 +275,7 @@ var showdiv=[];
         </li>
         <li>
         	<img src="images/pic4.jpg" width="158" height="238" />
-            <span>吴潇婴</span>
+            <span class="first">吴潇婴</span>
             <span>华南师范大学教育心理专业</span>
             <span>任幼儿园园长6年</span>
             <span>省一级、市示范性公办幼儿园15年</span>
@@ -250,7 +284,7 @@ var showdiv=[];
         </li>
         <li>
         	<img src="images/pic4.jpg" width="158" height="238" />
-            <span>吴潇婴</span>
+            <span class="first">吴潇婴</span>
             <span>华南师范大学教育心理专业</span>
             <span>任幼儿园园长6年</span>
             <span>省一级、市示范性公办幼儿园15年</span>

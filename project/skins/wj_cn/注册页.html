@@ -29,6 +29,7 @@ $(function(){
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
+	$(".idx_news").addClass('animated bounceInUp');
 	
 	<!--logo-->
 	$('.logo2').mouseenter(function(){
@@ -65,72 +66,32 @@ $(function(){
 		$(this).removeClass('animated swing');
 	});
 	
-	$('.cn_en span a').hover(function(){
+	<!--首页列表图片-->
+	$('.idx_news_list dl dt').hover(function(){
 		$(this).addClass('animated pulse');
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
 	
-	$('.nav_in ul li dl dd').hover(function(){
-		$(this).addClass('animated swing');
-	},function(){
-		$(this).removeClass('animated swing');
-	});
-	
-	<!--头部动画-->
-	$(".top").addClass('animated bounceIn');
-	$(".nav").addClass('animated bounceIn');  
-	
-	<!--教学课程图片-->
-	$('.teaching_course_b img').hover(function(){
-		$(this).addClass('animated pulse');
-	},function(){
-		$(this).removeClass('animated pulse');
-	});
-	
-	$(".teaching_course").addClass('animated fadeInUp');  
-	
-	
+	  
 	
 });	
 </script>
 
-<!--TAB JS-->
-<script type="text/javascript"> 
-function setTab(m,n){ 
-var menu=document.getElementById("tab"+m).getElementsByTagName("li");  
-var div=document.getElementById("tablist"+m).getElementsByTagName("div"); 
-var showdiv=[]; 
-	for (i=0; j=div[i]; i++)
-	{  
-		if((" "+div[i].className+" ").indexOf(" tablist ")!=-1)
-		{  
-			showdiv.push(div[i]); 
-		} 
-	}  
-	for(i=0;i<menu.length;i++)
-	{  
-		menu[i].className=i==n?"now":"";  
-		showdiv[i].style.display=i==n?"block":"none"; 
-	}  
-}  
-</script>
 
 </head>
 
-<body class="bg_winter">
+<body class="bg_autumn">
 
-<!--头部-->
-<div class="top">
-    <div class="cn_en2">
-    	<em><img src="images/dot_wing.png" height="20" /></em>
-        <span><a href="#" class="cn"=>中文</a>/<a href="#">English</a></span>
-    </div>
+<!--中英文-->
+<div class="cn_en" style="top:10px;">
+    <em><img src="images/dot_wing.png" height="20" /></em>
+    <span><a href="#" class="cn"=>中文</a>/<a href="#">English</a></span>
 </div>
-
+    
 <!--导航-->
-<div class="nav_winter nav">
-	<div class="nav_winter_in nav_in">
+<div class="nav_autumn nav">
+	<div class="nav_autumn_in nav_in">
       <ul>
       		<div class="logo2"><a href="#"></a><img src="images/logo2.png" width="100%" /></div>
             <li> 
@@ -203,20 +164,42 @@ var showdiv=[];
     </div>
 </div>
 
+<!--注册页-->
+<div class="process_t"><img src="images/process_t.png" height="60" /></div>
 
+<div class="process_b"><img src="images/process_b.png" height="50" /></div>
 
-<!--教学课程-->
-<div class="teaching_course">
-	<div class="teaching_course_t">万锦课程——学思之旅</div>
-    <div class="teaching_course_b">
-    	<img class="course1" src="images/teaching_course1.png" width="100%" />
-    	<img class="course2" src="images/teaching_course2.png" width="100%" />
-    	<img class="course3" src="images/teaching_course3.png" width="100%" />
-    	<img class="course4" src="images/teaching_course4.png" width="100%" />
-    	<img class="course5" src="images/teaching_course5.png" width="100%" />
-    </div>
+<div class="process_t"><img src="images/process_t2.png" height="60" /></div>
+
+<div class="process_input clear">
+	<div class="process_txt">幼儿姓名*</div>
+	<div class="process_txb"><input type="text"></div>
+    <div class="clear"></div>
+	<div class="process_txt">幼儿性别</div>
+	<div class="process_txb"><input type="text"></div>
+    <div class="clear"></div>
+	<div class="process_txt">幼儿出生年月日*</div>
+	<div class="process_txb"><input type="text"></div>
+    <div class="clear"></div>
+	<div class="process_txt">家长联系方式*</div>
+	<div class="process_txb"><input type="text"></div>
+    <div class="clear"></div>
+	<div class="process_txt">预约入读园所*</div>
+	<div class="process_txb"><input type="text"></div>
+    <div class="clear"></div>
+	<div class="process_txt"></div>
+	<div class="process_txb2"><input type="button" value="提交"></div>
+	<div class="process_txb2"><input class="bg2" type="button" value="提交"></div>
+    <div class="clear"></div>
 </div>
 
+
+<div class="process_t"><img src="images/process_t3.png" height="60" /></div>
+
+<div class="process_phone">
+TEL. 020-38020321 转Ext: 0 <br/>
+预约受理时间 工作日 AM8:30-PM5:30
+</div>
 
 <!--版权信息-->
 <div class="copyright">

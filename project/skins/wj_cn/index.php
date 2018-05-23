@@ -7,7 +7,7 @@
 <meta name="description" content="<?php echo $tag['seo.description'];  ?>" />
 <link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/style.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/css.css" />
-<!--<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />-->
+<link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>iconfont/iconfont.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/animate.min.css" />
 
 <!--JQ基础文件-->

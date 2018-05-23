@@ -5,11 +5,13 @@ body {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	font-size:18px;
+	font-size:14px;
 	color:#2c392d;
 	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
 	background:#fff;
 }
+
+body,html{height:100%;}
 
 dl,dt,dd,table,tr,td,th{
 	margin:0;padding:0;border:0px;
@@ -31,11 +33,21 @@ ul,li{
 	clear:both;
 }
 
+.clear:after {
+content: ""; 
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0; 
+height: 0;
+font-size:0; 
+} 
+
 input{outline:none;}
 
 a:link {color: #2c392d;text-decoration: none;}
 a:visited {color: #2c392d;text-decoration: none;}
-a:hover {color: #eb516a;text-decoration: none;}
+a:hover {color: #2c392d;text-decoration: none;}
 a:active {color: #2c392d;text-decoration: none;}
 
 * html,* html body /* 修正IE6振动bug */{
@@ -62,13 +74,6 @@ a{
 }
 
 input{
-  text-decoration:none; 
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-div{
   text-decoration:none; 
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;

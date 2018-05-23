@@ -5,7 +5,7 @@
 <title>无标题文档</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/css.css" />
-<!--<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />-->
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
 <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
 
 <!--JQ基础文件-->
@@ -29,11 +29,28 @@ $(function(){
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
+	$(".idx_news").addClass('animated bounceInUp');
 	
+	<!--logo-->
+	$('.logo2').mouseenter(function(){
+		$(this).addClass('now animated flipInY');
+		
+	}); 
+	$('.logo2 a').mouseleave(function(){
+		$(this).parent('.logo2').removeClass('now animated flipInY');
+		
+	}); 
 	
 	<!--导航-->
-	$('.nav_in ul li').mouseover(function(){
-		$(this).addClass('animated flipInY');
+	$('.nav_in ul li').mouseenter(function(){
+		$(this).addClass('now animated flipInY');
+		$(this).nextAll('.nav_in ul li').removeClass('now animated flipInY');
+		$(this).prevAll('.nav_in ul li').removeClass('now animated flipInY');
+		
+	});
+	
+	$('.nav_in ul li dl').mouseleave(function(){
+		$(this).parent('.nav_in ul li').removeClass('now animated flipInY');
 	});
 	
 	$('.cn_en span a').hover(function(){
@@ -55,17 +72,7 @@ $(function(){
 		$(this).removeClass('animated pulse');
 	});
 	
-	<!--滚动互动-->
-	$(document).scroll(function() {
-		if($(document).scrollTop()>160){
-			$(".top").addClass('animated bounceIn');
-			$(".nav").addClass('animated bounceIn');
-		}
-		if($(document).scrollTop()>560){
-			$(".idx_news").addClass('animated bounceInUp');
-			$(".idx_news").addClass('animated bounceInUp');
-		}
-	});   
+	  
 	
 });	
 </script>
@@ -76,13 +83,11 @@ $(function(){
 <body class="bg_autumn">
 
 <!--banner-->
-<div class="banner banner_autumn"></div>
+<div class="banner banner_autumn">
+	<img src="images/banner_autumn2.jpg" width="100%" />
 
-<!--头部-->
-<div class="top">
-	<div class="logo"><a href="#"><img src="images/logo.png" /></a></div>
     <div class="cn_en">
-    	<em><img src="images/dot_wing.png" width="29" height="28" /></em>
+    	<em><img src="images/dot_wing.png" height="20" /></em>
         <span><a href="#" class="cn"=>中文</a>/<a href="#">English</a></span>
     </div>
 </div>
@@ -91,66 +96,73 @@ $(function(){
 <div class="nav_autumn nav">
 	<div class="nav_autumn_in nav_in">
       <ul>
-            <li class="now"> 
-            	<a href="#"><img src="images/nav_autumn1.png" width="127" height="105" /></a>
+      		<div class="logo2"><a href="#"></a><img src="images/logo2.png" width="100%" /></div>
+            <li> 
+            	<a href="#"><img src="images/nav_autumn1.png" width="81" /></a>
                 <span><a href="#">关于我们</a></span>
                 <dl>
-                	<dd><a href="#">万锦教育集团</a></dd>
-                	<dd><a href="#">天河万锦</a></dd>
-                	<dd><a href="#">万锦分园</a></dd>
-                	<dd><a href="#">加入我们</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                	<div class="nav_second">
+                        <dd><a href="#">万锦教育集团</a></dd>
+                        <dd><a href="#">天河万锦</a></dd>
+                        <dd><a href="#">万锦分园</a></dd>
+                        <dd><a href="#">加入我们</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn2.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn2.png" width="81" /></a>
                 <span><a href="#">教学课程</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn3.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn3.png" width="81" /></a>
                 <span><a href="#">新闻动态</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn4.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn4.png" width="81" /></a>
                 <span><a href="#">预约入园</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <li> 
-            	<a href="#"><img src="images/nav_autumn5.png" width="127" height="105" /></a>
+            	<a href="#"><img src="images/nav_autumn5.png" width="81" /></a>
                 <span><a href="#">成长记录</a></span>
                 <dl>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
-                	<dd><a href="#">二级导航</a></dd>
+                	<div class="nav_block"><a href="#"></a></div>
+                    <div class="nav_second">
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                        <dd><a href="#">二级导航</a></dd>
+                    </div>
                 </dl>
           	</li>
             <div class="clear"></div>
-            <script type="text/javascript">
-            	$(function(){
-					$('.nav_autumn_in ul li').mouseover(function(){
-						$(this).addClass('now')	
-						$(this).nextAll('.nav_autumn ul li').removeClass('now animated flipInY')	
-						$(this).prevAll('.nav_autumn ul li').removeClass('now animated flipInY')	
-					});
-				});
-            </script>
       </ul>
     </div>
 </div>
@@ -158,47 +170,90 @@ $(function(){
 <!--首页列表-->
 <div class="idx_news">
 	<div class="idx_news_list">
-        <dl>
-            <dt><a href="#"><img src="images/pic1.jpg" width="356" height="237" /></a></dt>
-            <dd class="title"><a href="#">【Review】中秋活动回顾 Mid-autumn festival activities</a></dd>
+        <dl><a href="###" title="https://mp.weixin.qq.com/s/KCgASoB_BBiVQbaraGFk3A?">
+            <dt><img src="images/pic1.jpg" width="100%" /></dt>
+            <dd class="title">【Review】中秋活动回顾 Mid-autumn festival activities</dd>
             <dd class="details">
                 <span>橡果班萌娃们一边手捧餐碟，排着整齐的队伍等候取用自助餐，一边唱起了前几天学会的《中秋》儿歌。</span>
                 <label>What comes to your mind when talking about the Mid-Autumn Festival? Of course, it must be the full moon and sweet mooncakes, right?</label>
             </dd>
             <div class="clear"></div>
-        </dl>
+        </a></dl>
     </div>
 </div>
 
 <div class="idx_news">
 	<div class="idx_news_list">
-        <dl>
-            <dt><a href="#"><img src="images/pic1.jpg" width="356" height="237" /></a></dt>
-            <dd class="title"><a href="#">【Review】中秋活动回顾 Mid-autumn festival activities</a></dd>
+        <dl><a href="###" title="https://mp.weixin.qq.com/s/KCgASoB_BBiVQbaraGFk3A?">
+            <dt><img src="images/pic1.jpg" width="100%" /></dt>
+            <dd class="title">【Review】中秋活动回顾 Mid-autumn festival activities</dd>
             <dd class="details">
                 <span>橡果班萌娃们一边手捧餐碟，排着整齐的队伍等候取用自助餐，一边唱起了前几天学会的《中秋》儿歌。</span>
                 <label>What comes to your mind when talking about the Mid-Autumn Festival? Of course, it must be the full moon and sweet mooncakes, right?</label>
             </dd>
             <div class="clear"></div>
-        </dl>
+        </a></dl>
     </div>
 </div>
 
 <div class="idx_news">
 	<div class="idx_news_list">
-        <dl>
-            <dt><a href="#"><img src="images/pic1.jpg" width="356" height="237" /></a></dt>
-            <dd class="title"><a href="#">【Review】中秋活动回顾 Mid-autumn festival activities</a></dd>
+        <dl><a href="###" title="https://mp.weixin.qq.com/s/KCgASoB_BBiVQbaraGFk3A?">
+            <dt><img src="images/pic1.jpg" width="100%" /></dt>
+            <dd class="title">【Review】中秋活动回顾 Mid-autumn festival activities</dd>
             <dd class="details">
                 <span>橡果班萌娃们一边手捧餐碟，排着整齐的队伍等候取用自助餐，一边唱起了前几天学会的《中秋》儿歌。</span>
                 <label>What comes to your mind when talking about the Mid-Autumn Festival? Of course, it must be the full moon and sweet mooncakes, right?</label>
             </dd>
             <div class="clear"></div>
-        </dl>
+        </a></dl>
     </div>
 </div>
 
-<div class="idx_news_more"><a href="#"><img src="images/dot_wing.png" width="29" height="28" style="vertical-align:text-bottom" /> 更多新闻动态</a></div>
+
+<div class="news_show">
+	<div class="news_show_in">
+        <iframe src="" frameborder="0" width="100%" height="100%">
+          <p>您的浏览器不支持框架。</p>
+        </iframe>
+    </div>
+    <div class="news_show_close iconfont">&#xe740;</div>
+</div>
+
+<script>
+$(function(){	
+	$('.idx_news_list dl a').click(function(){
+		var a_title =  $(this).attr('title');
+		$('.news_show').fadeIn();
+		
+		$.ajaxPrefilter(function(options) {
+	　　if(options.crossDomain && jQuery.support.cors) {
+	　　var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+	　　options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+	　　}
+	});
+	
+		var share_link = a_title; //微信文章地址
+		$.get(
+		　　share_link,
+		　　function(response) {
+		　　//console.log("> ", response);
+		　　var html = response;
+		　　html = html.replace(/data-src/g, "src");
+		　　var html_src = 'data:text/html;charset=utf-8,' + html;
+		　　$("iframe").attr("src", html_src);
+		});
+	});
+	
+	$('.news_show_close').click(function(){
+		$('.news_show').fadeOut();
+	});
+});
+</script>
+
+
+
+<div class="idx_news_more"><a href="#"><img src="images/dot_wing.png" height="20" style="vertical-align:text-bottom" /> 更多新闻动态</a></div>
 
 <!--版权信息-->
 <div class="copyright">
