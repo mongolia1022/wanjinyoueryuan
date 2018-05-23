@@ -40,12 +40,40 @@ $(function(){
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
-	
-	
-	<!--导航-->
-	$('.nav_in ul li').mouseover(function(){
-		$(this).addClass('animated flipInY');
-	});
+
+    <!--logo-->
+    $('.logo2').mouseenter(function(){
+        $(this).addClass('now animated flipInY');
+
+    });
+    $('.logo2 a').mouseleave(function(){
+        $(this).parent('.logo2').removeClass('now animated flipInY');
+
+    });
+
+    <!--导航-->
+    $('.nav_in ul li').mouseenter(function(){
+        $(this).addClass('now animated flipInY');
+        $(this).nextAll('.nav_in ul li').removeClass('now animated flipInY');
+        $(this).prevAll('.nav_in ul li').removeClass('now animated flipInY');
+
+    });
+
+    $('.nav_in ul li dl').mouseleave(function(){
+        $(this).parent('.nav_in ul li').removeClass('now animated flipInY');
+    });
+
+    $('.cn_en span a').hover(function(){
+        $(this).addClass('animated pulse');
+    },function(){
+        $(this).removeClass('animated pulse');
+    });
+
+    $('.nav_in ul li dl dd').hover(function(){
+        $(this).addClass('animated swing');
+    },function(){
+        $(this).removeClass('animated swing');
+    });
 	
 	$('.cn_en span a').hover(function(){
 		$(this).addClass('animated pulse');
@@ -114,9 +142,9 @@ var showdiv=[];
 
 <!--头部-->
 <div class="top">
-	<div class="logo"><a href="<?php echo $tag['path.root']; ?>/"><img src="<?php echo $tag['path.skin']; ?>images/logo.png" /></a></div>
+    <div class="logo"><a href="<?php echo $tag['path.root']; ?>/"><img src="<?php echo $tag['path.skin']; ?>images/logo.png" /></a></div>
     <div class="cn_en">
-    	<em><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" width="29" height="28" /></em>
+        <em><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" width="29" height="28" /></em>
         <span><a href="<?php echo $tag['path.root']; ?>/?lang=cn" class="cn"=>中文</a>/<a href="<?php echo $tag['path.root']; ?>/?lang=en">English</a></span>
     </div>
 </div>
@@ -125,17 +153,9 @@ var showdiv=[];
 <div class="nav_<?php echo $tempname; ?> nav">
 	<div class="nav_<?php echo $tempname; ?>_in nav_in">
       <ul>
-            <?php nav_main()?>
+          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.root']; ?>images/logo2.png" width="100%" /></div>
+          <?php nav_main()?>
             <div class="clear"></div>
-            <script type="text/javascript">
-            	$(function(){
-					$('.nav_<?php echo $tempname; ?>_in ul li').mouseover(function(){
-						$(this).addClass('now')	
-						$(this).nextAll('.nav_<?php echo $tempname; ?> ul li').removeClass('now animated flipInY')	
-						$(this).prevAll('.nav_<?php echo $tempname; ?> ul li').removeClass('now animated flipInY')	
-					});
-				});
-            </script>
       </ul>
     </div>
 </div>

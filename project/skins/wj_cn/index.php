@@ -31,12 +31,30 @@ $(function(){
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
-	
-	
-	<!--导航-->
-	$('.nav_in ul li').mouseover(function(){
-		$(this).addClass('animated flipInY');
-	});
+
+    $(".idx_news").addClass('animated bounceInUp');
+
+    <!--logo-->
+    $('.logo2').mouseenter(function(){
+        $(this).addClass('now animated flipInY');
+
+    });
+    $('.logo2 a').mouseleave(function(){
+        $(this).parent('.logo2').removeClass('now animated flipInY');
+
+    });
+
+    <!--导航-->
+    $('.nav_in ul li').mouseenter(function(){
+        $(this).addClass('now animated flipInY');
+        $(this).nextAll('.nav_in ul li').removeClass('now animated flipInY');
+        $(this).prevAll('.nav_in ul li').removeClass('now animated flipInY');
+
+    });
+
+    $('.nav_in ul li dl').mouseleave(function(){
+        $(this).parent('.nav_in ul li').removeClass('now animated flipInY');
+    });
 	
 	$('.cn_en span a').hover(function(){
 		$(this).addClass('animated pulse');
@@ -56,20 +74,7 @@ $(function(){
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
-	
-	<!--滚动互动-->
-	$(document).scroll(function() {
-		if($(document).scrollTop()>160){
-			$(".top").addClass('animated bounceIn');
-			$(".nav").addClass('animated bounceIn');
-		}
-		if($(document).scrollTop()>560){
-			$(".idx_news").addClass('animated bounceInUp');
-			$(".idx_news").addClass('animated bounceInUp');
-		}
-	});   
-	
-});	
+});
 </script>
 
 
@@ -78,14 +83,12 @@ $(function(){
 <body class="bg_autumn">
 
 <!--banner-->
-<div class="banner banner_autumn"><img src="<?php echo $tag['path.skin']; ?>images/banner_autumn.jpg" width="100%" /></div>
+<div class="banner banner_autumn">
+    <img src="<?php echo $tag['path.skin']; ?>images/banner_autumn2.jpg" width="100%" />
 
-<!--头部-->
-<div class="top">
-	<div class="logo"><a href="<?php echo $tag['path.root']; ?>/"><img src="<?php echo $tag['path.skin']; ?>images/logo.png" /></a></div>
     <div class="cn_en">
-    	<em><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" width="29" height="28" /></em>
-        <span><a href="<?php echo $tag['path.root']; ?>/?lang=cn" class="cn">中文</a>/<a href="<?php echo $tag['path.root']; ?>/?lang=en">English</a></span>
+        <em><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" height="20" /></em>
+        <span><a href="<?php echo $tag['path.root']; ?>/?lang=cn" class="cn"=>中文</a>/<a href="<?php echo $tag['path.root']; ?>/?lang=en">English</a></span>
     </div>
 </div>
 
@@ -93,23 +96,54 @@ $(function(){
 <div class="nav_autumn nav">
 	<div class="nav_autumn_in nav_in">
       <ul>
-	  <?php nav_main()?>
+          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.root']; ?>images/logo2.png" width="100%" /></div>
+          <?php nav_main()?>
             <div class="clear"></div>
-            <script type="text/javascript">
-            	$(function(){
-					$('.nav_autumn_in ul li').mouseover(function(){
-						$(this).addClass('now')	
-						$(this).nextAll('.nav_autumn ul li').removeClass('now animated flipInY')	
-						$(this).prevAll('.nav_autumn ul li').removeClass('now animated flipInY')	
-					});
-				});
-            </script>
       </ul>
     </div>
 </div>
 
 <!--首页列表-->
 <?php doc_list('3',1,0,0,0,0,true,false,'id',0)?>
+<div class="news_show">
+    <div class="news_show_in">
+        <iframe src="" frameborder="0" width="100%" height="100%">
+            <p>您的浏览器不支持框架。</p>
+        </iframe>
+    </div>
+    <div class="news_show_close iconfont">&#xe740;</div>
+</div>
+
+<script>
+    $(function(){
+        $('.idx_news_list dl a').click(function(){
+            var a_title =  $(this).attr('title');
+            $('.news_show').fadeIn();
+
+            $.ajaxPrefilter(function(options) {
+                if(options.crossDomain && jQuery.support.cors) {
+                    var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+                    options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+                }
+            });
+
+            var share_link = a_title; //微信文章地址
+            $.get(
+                share_link,
+                function(response) {
+                    //console.log("> ", response);
+                    var html = response;
+                    html = html.replace(/data-src/g, "src");
+                    var html_src = 'data:text/html;charset=utf-8,' + html;
+                    $("iframe").attr("src", html_src);
+                });
+        });
+
+        $('.news_show_close').click(function(){
+            $('.news_show').fadeOut();
+        });
+    });
+</script>
 <div class="idx_news_more"><a href="<?php echo sys_href(2); ?>"><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" width="29" height="28" style="vertical-align:text-bottom" /> 更多新闻动态</a></div>
 
 <!--版权信息-->

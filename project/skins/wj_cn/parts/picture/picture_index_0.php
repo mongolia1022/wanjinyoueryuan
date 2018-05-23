@@ -21,7 +21,7 @@ if( !empty( $tag['data.results'] ) )
 	{
 	?>
 	<li>
-         <a href="<?php echo sys_href($data['channelId'],'picture',$data['id'])?>"><img src="<?php echo $data['smallPic']; ?>" width="356" height="237" /></a>
+         <a href="<?php echo sys_href($data['channelId'],'picture',$data['id'])?>"><img src="<?php echo $data['smallPic']; ?>" width="100%" /></a>
             	<span><a href="<?php echo sys_href($data['channelId'],'picture',$data['id'])?>"><?php echo $data['title']; ?></a></span>
     </li>
 	<?php
