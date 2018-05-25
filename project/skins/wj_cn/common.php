@@ -142,9 +142,8 @@ var showdiv=[];
 
 <!--头部-->
 <div class="top">
-    <div class="logo"><a href="<?php echo $tag['path.root']; ?>/"><img src="<?php echo $tag['path.skin']; ?>images/logo.png" /></a></div>
-    <div class="cn_en">
-        <em><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" width="29" height="28" /></em>
+    <div class="cn_en2">
+        <em><img src="<?php echo $tag['path.skin']; ?>images/dot_wing.png" height="20" /></em>
         <span><a href="<?php echo $tag['path.root']; ?>/?lang=cn" class="cn"=>中文</a>/<a href="<?php echo $tag['path.root']; ?>/?lang=en">English</a></span>
     </div>
 </div>
@@ -153,7 +152,7 @@ var showdiv=[];
 <div class="nav_<?php echo $tempname; ?> nav">
 	<div class="nav_<?php echo $tempname; ?>_in nav_in">
       <ul>
-          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.root']; ?>images/logo2.png" width="100%" /></div>
+          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.skin']; ?>images/logo2.png" width="100%" /></div>
           <?php nav_main()?>
             <div class="clear"></div>
       </ul>

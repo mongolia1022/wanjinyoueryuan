@@ -22,12 +22,20 @@ $target = $data['isTarget']?$target:'';
 /************** 样式正文 ************/
 ?>
 <li <?php echo $select?>>
-            	<a href="<?php echo $url?>"><img src="<?php echo $tag['path.skin']; ?>images/nav_autumn<?php echo $data['id']?>.png" width="127" height="105" /></a>
+            	<a href="<?php echo $url?>"><img src="<?php echo $tag['path.skin']; ?>images/nav_autumn<?php echo $data['id']?>.png" width="81" /></a>
                 <span><a href="<?php echo $url?>"><?php echo $data['title'];?></a></span>
+    <?php
+  /*
+  *  如需要频道导航显示子栏目菜单，将以下标签代码前的注释取消即可。
+  */
+  if(!empty($subs[$data['id']]))
+  {?>
                 <dl>
                     <div class="nav_block"><a href="<?php echo $url?>"></a></div>
                     <div class="nav_second">
                   <?php nav_sub($data['id'])?>
                     </div>
                 </dl>
+  <?}
+    ?>
           	</li>

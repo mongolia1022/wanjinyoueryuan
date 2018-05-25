@@ -14,10 +14,10 @@
 <link rel="stylesheet" href="<?php echo $tag['path.skin']; ?>css/lightbox.css">
 <?php $data=$tag['data.row'];?>
 <!--growth_record-->
-<div class="growth_record_t"><?php echo $data['title']; ?></div>
+<!--<div class="growth_record_t">--><?php //echo $data['title']; ?><!--</div>-->
 <div class="growth_record">
 	<div class="growth_record_list">
-    	<ul id="picContent">
+    	<ul>
 		<?php 
 			$originalPic = explode('|',$data['originalPic']);
 			$middlePic   = explode('|',$data['middlePic']);
@@ -27,7 +27,7 @@
 			{
           ?>
 		  <li>
-		  <a class="example-image-link" href="<?php echo ispic($originalPic[$i])?>" data-lightbox="example-set" data-title="<?php echo $data['description']; ?>"><img src="<?php echo ispic($smallPic[$i])?>" width="356" height="237" /></a>
+		  <a class="example-image-link" href="<?php echo ispic($originalPic[$i])?>" data-lightbox="example-set" data-title="<?php echo $data['description']; ?>"><img src="<?php echo ispic($smallPic[$i])?>" width="100%" /></a>
 		  </li>
         <?php
 			}?>

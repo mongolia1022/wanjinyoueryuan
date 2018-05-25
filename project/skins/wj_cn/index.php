@@ -96,7 +96,7 @@ $(function(){
 <div class="nav_autumn nav">
 	<div class="nav_autumn_in nav_in">
       <ul>
-          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.root']; ?>images/logo2.png" width="100%" /></div>
+          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.skin']; ?>images/logo2.png" width="100%" /></div>
           <?php nav_main()?>
             <div class="clear"></div>
       </ul>
