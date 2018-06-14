@@ -16,7 +16,7 @@ if($prootid==3){
 <meta name="description" content="<?php echo $tag['seo.description'];  ?>" />
 <link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/style.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/css.css" />
-<!--<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />-->
+<link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>iconfont/iconfont.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/animate.min.css" />
 
 <!--JQ基础文件-->
@@ -100,15 +100,7 @@ $(function(){
 	
 	$(".about_t").addClass('animated fadeInUp');
 	
-	<!--滚动互动-->
-	$(document).scroll(function() {
-		if($(document).scrollTop()>300){
-			$(".about_b").addClass('animated bounceInUp');
-		}
-		if($(document).scrollTop()>560){
-			$(".team_member").addClass('animated bounceInUp');
-		}
-	});   
+	
 	
 	
 	
@@ -152,7 +144,7 @@ var showdiv=[];
 <div class="nav_<?php echo $tempname; ?> nav">
 	<div class="nav_<?php echo $tempname; ?>_in nav_in">
       <ul>
-          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>"></a><img src="<?php echo $tag['path.skin']; ?>images/logo2.png" width="100%" /></div>
+          <div class="logo2"><a href="<?php echo $tag['path.root']; ?>/"></a><img src="<?php echo $tag['path.skin']; ?>images/logo2.png" width="100%" /></div>
           <?php nav_main()?>
             <div class="clear"></div>
       </ul>

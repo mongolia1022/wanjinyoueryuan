@@ -32,8 +32,6 @@ $(function(){
 		$(this).removeClass('animated pulse');
 	});
 
-    $(".idx_news").addClass('animated bounceInUp');
-
     <!--logo-->
     $('.logo2').mouseenter(function(){
         $(this).addClass('now animated flipInY');
@@ -55,6 +53,18 @@ $(function(){
     $('.nav_in ul li dl').mouseleave(function(){
         $(this).parent('.nav_in ul li').removeClass('now animated flipInY');
     });
+
+    $('.cn_en span a').hover(function(){
+        $(this).addClass('animated pulse');
+    },function(){
+        $(this).removeClass('animated pulse');
+    });
+
+    $('.nav_in ul li dl dd').hover(function(){
+        $(this).addClass('animated swing');
+    },function(){
+        $(this).removeClass('animated swing');
+    });
 	
 	$('.cn_en span a').hover(function(){
 		$(this).addClass('animated pulse');
@@ -68,15 +78,25 @@ $(function(){
 		$(this).removeClass('animated swing');
 	});
 	
-	<!--首页列表图片-->
-	$('.idx_news_list dl dt').hover(function(){
+	<!--头部动画-->
+	$(".top").addClass('animated bounceIn');
+	$(".nav").addClass('animated bounceIn');  
+	
+	<!--相册页列表图片-->
+	$('.growth_record_list ul li img').hover(function(){
 		$(this).addClass('animated pulse');
 	},function(){
 		$(this).removeClass('animated pulse');
 	});
-});
+	
+	$(".about_t").addClass('animated fadeInUp');
+	
+	
+	
+	
+	
+});	
 </script>
-
 
 </head>
 
@@ -104,7 +124,7 @@ $(function(){
 </div>
 
 <!--首页列表-->
-<?php doc_list('3',1,0,0,0,0,true,false,'id',0)?>
+<?php doc_list('3',2,0,0,0,0,true,false,'id',0)?>
 <div class="news_show">
     <div class="news_show_in">
         <iframe src="" frameborder="0" width="100%" height="100%">
