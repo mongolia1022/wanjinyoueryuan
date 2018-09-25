@@ -13,10 +13,10 @@
 *  此标签内置一递增变量 $i ,以方便制作各种样式的菜单, 此变量可在此文件中任意地方调用。;
 * 
 */
-$select ='class="select"';  //选中状态的样式，若无选中状态，可不添加。
+$select ='class="now"';  //选中状态的样式，若无选中状态，可不添加。
 $target ='target="_blank"'; //外链则弹出新窗口，若不需弹出新窗口可清空此变量。
 $ico = ispic($data['originalPic'])?'<img src="'.$data['originalPic'].'" />':''; //栏目图标，可在后台栏目缩略图处上传
 $select = $params['id']==$data['id']?$select:''; 
 $target = $data['isTarget']?$target:'';
 ?>
-<dd><a href="<?php echo $url?>"><?php echo $data['title'];?></a></dd>
+<dd><a href="<?php echo $url?>" <?php echo $select?>><?php echo $data['title'];?></a></dd>

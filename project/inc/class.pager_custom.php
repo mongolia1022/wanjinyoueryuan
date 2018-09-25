@@ -86,31 +86,37 @@ class Pager
 				$tempStr .= '</select>页';
 			}
 		}
-		elseif($style==1)
-		{
-			$tpageNum=8;
-			if($this->cPage<$tpageNum/2)
-			{
-				$tstart=1;
-				$tend=$tpageNum+1;
-			}
-			else 
-			{
-				$tstart=$this->cPage-$tpageNum/2;
-				$tend=$this->cPage+$tpageNum/2;	
-			}
-			$tstart=$tstart<1?1:$tstart;
-			$tend=$tend>$this->totalPageNo?$this->totalPageNo:$tend;
+        elseif($style==1)
+        {
+            $tpageNum=8;
+            if($this->cPage<$tpageNum/2)
+            {
+                $tstart=1;
+                $tend=$tpageNum+1;
+            }
+            else
+            {
+                $tstart=$this->cPage-$tpageNum/2;
+                $tend=$this->cPage+$tpageNum/2;
+            }
+            $tstart=$tstart<1?1:$tstart;
+            $tend=$tend>$this->totalPageNo?$this->totalPageNo:$tend;
 
-			$tempStr ='';
-			$tempStr .=$this->prvNo()<1?'':'<img src="/skins/wj_cn/images/dot_wing2.png" width="29" height="29" />&nbsp;<a href="'.$this->rootpath.$url.$this->prvNo().$this->anchor.'">上一页</a>&nbsp;&nbsp;&nbsp;';
-			for($i=$tstart;$i<$tend+1;$i++)
-			{
-				$tempStr .='<a href="'.$this->rootpath.$url.$i.$this->anchor.'">'.$i.'</a>&nbsp;&nbsp;&nbsp;';
-			}
-			$tempStr .= $tend<$this->lastNo()-1?'...&nbsp;&nbsp;':'';
-			$tempStr .=	$this->nextNo()>$this->totalPageNo?'':'<a href="'.$this->rootpath.$url.$this->nextNo().$this->anchor.'">下一页</a>&nbsp;<img src="/skins/wj_cn/images/dot_wing.png" width="29" height="29" />';
-		}
+            $tempStr ='<img src="/inc/img/pager/page_o.png" width="29" height="29" /> &nbsp;';
+            $tempStr .=$this->prvNo()<1?'':'<a href="'.$this->rootpath.$url.$this->prvNo().$this->anchor.'">上一页</a>&nbsp;&nbsp;&nbsp;';
+
+            $tempStr .=$tstart>$this->fristNo()?'<a href="'.$this->rootpath.$url.$this->fristNo().$this->anchor.'">1</a>&nbsp;&nbsp;&nbsp;':'';
+            $tempStr .=$tstart>$this->fristNo()+1?'...&nbsp;&nbsp;':'';
+            for($i=$tstart;$i<$tend+1;$i++)
+            {
+                $tempStr .='<a href="'.$this->rootpath.$url.$i.$this->anchor.'" '.($this->cPage==$i?'class="now"':'').'>'.$i.'</a>&nbsp;&nbsp;&nbsp;';
+            }
+            $tempStr .= $tend<$this->lastNo()-1?'...&nbsp;&nbsp;':'';
+            $tempStr .= $tend<$this->lastNo()?'<a href="'.$this->rootpath.$url.$this->lastNo().$this->anchor.'">'.$this->lastNo().'</a>&nbsp;&nbsp;&nbsp;':'';
+
+            $tempStr .=	$this->nextNo()>$this->totalPageNo?'':'<a href="'.$this->rootpath.$url.$this->nextNo().$this->anchor.'">下一页</a>&nbsp;';
+            $tempStr .='<img src="/inc/img/pager/page_n.png" width="29" height="29" />';
+        }
 		elseif($style==2)
 		{
 			$tpageNum=8;

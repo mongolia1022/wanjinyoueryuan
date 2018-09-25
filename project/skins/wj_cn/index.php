@@ -124,7 +124,7 @@ $(function(){
 </div>
 
 <!--首页列表-->
-<?php doc_list('3',2,0,0,0,0,true,false,'id',0)?>
+<?php doc_list('10',3,0,0,0,0,true,false,'id',0)?>
 <div class="news_show">
     <div class="news_show_in">
         <iframe src="" frameborder="0" width="100%" height="100%">
