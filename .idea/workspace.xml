@@ -3,283 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="624e30c7-8d97-4606-885f-d126c82f5c79" name="Default" comment="更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/inc/class.pager_custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/inc/class.pager_custom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/inc/img/pager/page_n.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/inc/img/pager/page_n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/inc/img/pager/page_o.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/inc/img/pager/page_o.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/common.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/common/common_list1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/common/common_list2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/common/qyb.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/css/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/css/swiper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/maps/swiper.jquery.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/maps/swiper.jquery.umd.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/maps/swiper.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/swiper.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/swiper.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/swiper.jquery.umd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/swiper.jquery.umd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/swiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/dist/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/demo_fontclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/demo_symbol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/demo_unicode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/iconfont/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/ie-css3.htc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_bottom.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_dark_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_dark_40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_dark_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_dark_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_head.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_in2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_left_list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_left_list2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_nav.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_white_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bg_white_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/bottom_t.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/ct1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/ct2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/ct3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/ct4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/ct5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_eye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_eye2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_sdt_l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_sdt_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_time.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/dot_time2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/furnishing_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/furnishing_btn_l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/furnishing_btn_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/gray_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/gray_bg2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/idx_about_av.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/idx_about_pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/idx_title.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/img1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/in_bg_t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/left_dot1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/left_dot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/left_dot3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/logo_bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/logo_clarity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/logo_ge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/logo_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/look.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/must_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/must_line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/must_line2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/nav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/nav_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/nav_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/nav_now.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/news_list_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/news_list_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/news_t.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/news_t_line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/page_l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/page_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/page_o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/page_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pic_border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_one.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_one_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_one_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_three.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_three_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_three_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_two.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_two_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_img/blue_two_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/pro_tab_t.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/qr.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/qr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/qr_idx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/search_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/search_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/top.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/top_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/top_cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/top_member.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/top_phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/top_pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/wall_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/images/zoomlens.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__nav/nav_custom_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__nav/nav_main_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__nav/nav_main_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__nav/nav_sub_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__nav/nav_sub_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__nav/nav_sub_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/__sys/product_about_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/article/article_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/article/article_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/bbs/bbs_discuz_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/bbs/bbs_phpwind_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/download/download_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/flash/flash_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/focus/focus_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/focus/focus_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/focus/focus_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/focus/focus_3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/focus/focus_4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/guestbook/guestbook_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/jobs/jobs_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/linkers/linkers_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/linkers/linkers_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/list/list_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/list/list_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/list/list_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/list/list_3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/list/list_4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/list/list_5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/mapshow/mapshow_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/picture/picture_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/poll/poll_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/product/product_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/product/product_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/product/product_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/rss/rss_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/user/user_login_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/user/user_regist_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/video/video_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/video/video_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/index/webmap/webmap_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/js/DD_belatedPNG_0.0.8a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/js/jquery-1.9.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/article/article_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/article/article_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/calllist/calllist_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/calllist/calllist_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/comment/comment_index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/comment/comment_view_comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/download/download_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/download/download_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/guestbook/guestbook_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/guestbook/guestbook_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/guestbook/guestbook_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/guestbook/guestbook_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/jobs/jobs_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/jobs/jobs_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/jobs/jobs_send_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/jobs/jobs_send_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/jobs/jobs_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/jobs/jobs_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/linkers/linkers_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/linkers/linkers_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/list/list_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/list/list_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/list/list_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/list/list_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/mapshow/mapshow_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/mapshow/mapshow_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/order/order_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/order/order_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/pay/pay_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/pay/pay_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/picture/picture_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/picture/picture_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/picture/picture_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/picture/picture_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/poll/poll_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/poll/poll_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/poll/poll_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/poll/poll_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_basket_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_basket_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_basketqr_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_basketqr_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_submitbasket_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_submitbasket_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/product/product_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/rss/rss_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/rss/rss_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/search/search_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/search/search_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_comment_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_comment_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_edit_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_edit_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_editpwd_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_editpwd_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_guestbook_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_guestbook_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_login_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_login_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_order_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_order_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_reg_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/user/user_reg_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/video/video_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/video/video_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/video/video_view_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/video/video_view_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/webmap/webmap_index_0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/parts/webmap/webmap_index_1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/preview/index.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/preview/index_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/preview/xiaoguotu1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/preview/xiaoguotu2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/res/plug-in/myfocus/myfocus-2.0.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/res/plug-in/myfocus/pattern/mF_fscreen_tb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/res/plug-in/myfocus/pattern/mF_fscreen_tb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/scripts/jquery-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/scripts/jquery.jqzoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/scripts/jquery.livequery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/scripts/jquery.thickbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/scripts/switchImg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/scripts/use_jqzoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/skins.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/styles/detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/styles/thickbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/产品介绍页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/产品列表页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/内容页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/图文列表页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/图片页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/文字列表页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/新闻内页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/taoyuan/联系我们页.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/wj_cn/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/skins/wj_cn/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/wj_cn/index/__nav/nav_main_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/skins/wj_cn/index/__nav/nav_main_0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/wj_cn/index/__nav/nav_sub_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/skins/wj_cn/index/__nav/nav_sub_0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/skins/wj_cn/parts/picture/picture_view_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/skins/wj_cn/parts/picture/picture_view_0.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,6 +14,7 @@
     <session id="-342109770">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -422,7 +146,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1680" />
     <option name="height" value="1028" />
@@ -444,19 +168,6 @@
               <item name="万锦幼儿园" type="b2602c69:ProjectViewProjectNode" />
               <item name="万锦幼儿园" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="万锦幼儿园" type="b2602c69:ProjectViewProjectNode" />
-              <item name="万锦幼儿园" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="万锦幼儿园" type="b2602c69:ProjectViewProjectNode" />
-              <item name="万锦幼儿园" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="万锦幼儿园" type="b2602c69:ProjectViewProjectNode" />
@@ -622,7 +333,7 @@
       <workItem from="1527130570257" duration="180000" />
       <workItem from="1527181248670" duration="4761000" />
       <workItem from="1528993735653" duration="664000" />
-      <workItem from="1537887765466" duration="5949000" />
+      <workItem from="1537887765466" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1527089476118</created>
@@ -666,15 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528994878244</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新">
+      <created>1537893773795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537893773796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18618000" />
+    <option name="totallyTimeSpent" value="18690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1028" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24542125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -1,8 +1,8 @@
 <?php
 //数据库配置字段
 define('DB_HOSTNAME','localhost');
-define('DB_USER','root');
-define('DB_PASSWORD','');
+define('DB_USER','wanjinyoueryuan');
+define('DB_PASSWORD','wjyey808');
 define('DB_DBNAME','wanjinyoueryuan');
 define('TB_PREFIX','doc_');
 //模板配置字段
@@ -18,7 +18,7 @@ define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
 define('STYLENAME','wj_cn');      //PC 模板
-define('MOBILENAME','taoyuan_cn');      //移动模板
+define('MOBILENAME','wj_cn');      //移动模板
 define('URLREWRITE',false);
 define('CACHETIME','0');
 define('DOCPING',false);
@@ -74,8 +74,8 @@ define('userHight','120');
 define('linkersWidth','90');
 define('linkersHight','30');
 //内容页列表模块单页显示默认条数
-define('listCount','12');
-define('pictureCount','9');
+define('listCount','5');
+define('pictureCount','1');
 define('productCount','6');
 define('videoCount','12');
 define('guestbookCount','10');

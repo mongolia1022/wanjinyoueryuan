@@ -41,7 +41,7 @@
 			
 			<!--lightbox js-->
 <script src="<?php echo $tag['path.skin']; ?>js/lightbox.js"></script>
-<!--<script src="--><?php //echo $tag['path.skin']; ?><!--js/jqpaginator.min.js"></script>-->
+<script src="<?php echo $tag['path.skin']; ?>js/jqpaginator.min.js"></script>
 
 <script>
 //var bigpics='<?php //echo $data['originalPic'] ?>//'.split("|");
